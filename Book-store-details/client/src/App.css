@@ -1,0 +1,48 @@
+.book-card {
+    transition: all 0.3s ease;
+    background-color: #f8fafc; /* Light gray-blue */
+    border: 1px solid #e2e8f0; /* Light border */
+    border-radius: 10px;
+}
+
+.book-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(37, 99, 235, 0.15); /* Blue accent shadow */
+}
+
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.book-card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.card:hover {
+    box-shadow: 0 12px 28px rgba(37, 99, 235, 0.2); /* Tailwind blue-600 */
+    transition: 0.3s ease-in-out;
+    border-color: #60a5fa; /* Blue border on hover */
+}
+
+.btn {
+    transition: all 0.2s ease-in-out;
+    background-color: #2563eb; /* Tailwind blue-600 */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    transform: scale(1.02);
+    background-color: #1e40af; /* Darker blue on hover */
+    color: #f1f5f9;
+}
+.hover-link {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.hover-link:hover {
+    color: #ffe082; /* Amber on hover */
+    transform: scale(1.05);
+    text-decoration: underline;
+}
